@@ -20,4 +20,4 @@ const firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-const messaging = getMessaging(app);
+const messaging = firebase.messaging();
